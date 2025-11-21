@@ -47,12 +47,12 @@ class _LoginScreenState extends State<LoginScreen> {
 
       if (_isLoginMode) {
         // existing user log in
-        cred = (await FirebaseAuth.instance
-            .signInWithEmailAndPassword(email: email, password: password)) as UserCredential;
+        cred = await FirebaseAuth.instance
+            .signInWithEmailAndPassword(email: email, password: password);
       } else {
         // new user sign up
-        cred = (await FirebaseAuth.instance
-            .createUserWithEmailAndPassword(email: email, password: password)) as UserCredential;
+        cred = await FirebaseAuth.instance
+            .createUserWithEmailAndPassword(email: email, password: password);
       }
 
       // Ensure Firestore user doc exists
@@ -167,5 +167,3 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 }
 
-class UserCredential {
-}
