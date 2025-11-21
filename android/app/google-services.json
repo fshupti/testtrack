@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681899625474",
+    "project_id": "testtrack-78c6b",
+    "storage_bucket": "testtrack-78c6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681899625474:android:8e861957ae20dddd156b1b",
+        "android_client_info": {
+          "package_name": "com.example.testtrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf3iZk9pvBjeXSBXyN6ysdoBF5DgvtyoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
